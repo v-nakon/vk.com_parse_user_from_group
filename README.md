@@ -1,5 +1,6 @@
 # vk.com_parse_user_from_group
-vk.com parse user from group and write to file
+USE VK.COM API METHOD "groups.getMembers"
+vk.com parse user from group and write to file.
 
 To run the program you need a vk.com secret token.
 You need to create your application and get the key(SECRET TOKEN).
