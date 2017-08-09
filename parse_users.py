@@ -97,7 +97,7 @@ def main():
     file_with_groups = 'groups_id.txt'
     TOKEN = '14bb0bdb84bb0bdb84bb0bdb8674bec0ec344bb04bb0bdb812f2f044e81a3b86ec8ce8ca' #vk.com your secret token
     GROUP_ID = get_group(file_with_groups)
-    #GROUP_ID = str(46905358) #vk.com group id
+  
     offset = 0 # offset
     while True:
         url = 'https://api.vk.com/method/groups.getMembers?group_id=' + GROUP_ID + '&fields=contacts&offset=' + str(offset) + '&access_token='
